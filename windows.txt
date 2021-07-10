@@ -1,0 +1,28 @@
+windows terminar
+    https://www.microsoft.com/ja-jp/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab
+    install
+    windows PowerShell
+VScode
+    https://azure.microsoft.com/ja-jp/products/visual-studio-code/
+    PATHへ追加（必須）
+    install
+    拡張機能
+        Japanese Language Pack for Visual Studio Code
+        Docker
+        Git History
+Git
+    https://gitforwindows.org/
+    install
+    Git BashからGitHubへssh接続
+        https://qiita.com/shizuma/items/2b2f873a0034839e47ce
+GitHub
+    https://github.com/
+    アカウント作成
+sourcetree
+    https://www.sourcetreeapp.com/
+    install
+    ターミナルからGitHubへssh接続
+        https://qiita.com/taku_maru/items/b23a24aaa359a0f8eba7
+    
+WSL2
+Docker
