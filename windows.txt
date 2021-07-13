@@ -10,10 +10,15 @@ VScode
         Japanese Language Pack for Visual Studio Code
         Docker
         Git History
+    ユーザー設定／ワークスペース設定でfiles.trimTrailingWhitespace項目を設定する
+    空白文字の可視化:Render Whitespace項目:all
+    改行コード：ユーザー設定／ワークスペース設定でfiles.eol項目を変更する
 Git
     https://gitforwindows.org/
     install
-    Git BashからGitHubへssh接続
+    Git Bash
+        git --version
+        GitHubへssh接続
         https://qiita.com/shizuma/items/2b2f873a0034839e47ce
 GitHub
     https://github.com/
@@ -23,7 +28,61 @@ sourcetree
     install
     ターミナルからGitHubへssh接続
         https://qiita.com/taku_maru/items/b23a24aaa359a0f8eba7
-    
-    
 WSL2
 Docker
+    https://www.docker.com/
+    画面一番下：Developers：Docsの下記をクリックする
+    https://docs.docker.com/
+    Download And installの下記をクリックする
+    https://docs.docker.com/get-docker/
+    Docker Desktop for Windowsの下記をクリックする
+    https://docs.docker.com/docker-for-windows/install/
+    上記はWindows　Ｐro用なので
+    https://docs.docker.jp/docker-for-windows/install-windows-home.html
+    https://hub.docker.com/editions/community/docker-ce-desktop-windows/
+    Microsoft documentation.の下記リンクをクリックする
+    https://docs.microsoft.com/en-us/windows/wsl/install-win10
+    上は英語サイトなので下記の日本語サイトを開く
+    https://docs.microsoft.com/ja-jp/windows/wsl/install-win10
+    管理者として PowerShell を開き、以下を実行します。（下記をターミナルで実行する）
+    Start-Process powershell.exe -Verb runas
+    青の管理者画面が開く
+
+    手順 1 - Linux 用 Windows サブシステムを有効にする
+    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+    手順 2 - WSL 2 の実行に関する要件を確認する
+    Windows update
+        キーボードのWindowsキーを押しながら、[R]キーを押します。 ...
+        [ファイル名を指定して実行]画面が表示されるので、[名前]欄に「winver」と入力し、[OK]ボタンを選択します。
+    手順 3: 仮想マシンの機能を有効にする
+    dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+    システム再起動
+
+    手順 4 - Linux カーネル更新プログラム パッケージをダウンロードする
+    x64 マシン用 WSL2 Linux カーネル更新プログラム パッケージ
+    上記をダウンロードしてインストールする
+
+    手順 5 - WSL 2 を既定のバージョンとして設定する
+    管理者ではない普通のpowershellで下記を実行する
+    下記が実行後のメッセージです
+        WSL 2 との主な違いについては、https://aka.ms/wsl2 を参照してください
+
+    手順 6 - 選択した Linux ディストリビューションをインストールする
+    Ubuntu 20.04 LTSを使用する
+    https://www.microsoft.com/ja-jp/p/ubuntu-2004-lts/9n6svws3rx71?rtc=1&activetab=pivot:overviewtab
+    インストールする
+    起動する
+    username:baesuyong1973
+    password:koreabae7409
+
+
+
+
+
+
+
+
+
+
