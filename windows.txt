@@ -32,6 +32,10 @@ sourcetree
         ２．pushがsourcetree上で可能になる
         ３．下のputtyをインストルした後、pageantにプライベートキーを登録する
         　　（毎回キーを確認しない）
+        ４．sourcetreeのターミナルからコマンドでgit pullできる（下記実行後可能）
+            git config pull.rebase false  # merge (the default strategy)
+            git config pull.rebase true   # rebase
+            git config pull.ff only　　　　# fast-forward only
 putty
     https://web.archive.org/web/20171222101036/http://hp.vector.co.jp/authors/VA024651/PuTTYkj.html
 WSL2
