@@ -30,6 +30,9 @@ sourcetree
         https://qiita.com/taku_maru/items/b23a24aaa359a0f8eba7
         １．sshでcloneする
         ２．pushがsourcetree上で可能になる
+        ３．下のputtyをインストルした後、pageantにプライベートキーを登録する
+putty
+    https://web.archive.org/web/20171222101036/http://hp.vector.co.jp/authors/VA024651/PuTTYkj.html
 WSL2
 Docker
     https://www.docker.com/
