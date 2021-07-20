@@ -18,7 +18,7 @@ Git
     install
     Git Bash
         git --version
-        下記はcd ~/.sshで実行する
+        下記はcd ~/.sshで実行する（sourcetreeのターミナルで生成していれば不要）
         GitHubへssh接続
         https://qiita.com/shizuma/items/2b2f873a0034839e47ce
 GitHub
