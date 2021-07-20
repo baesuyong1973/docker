@@ -7,9 +7,11 @@ VScode
     PATHへ追加（必須）
     install
     拡張機能
-        Japanese Language Pack for Visual Studio Code
-        Docker
+        Japanese Language Pack
         Git History
+        Docker
+        Docker Compose
+        Generate Windows Terminal
     ユーザー設定／ワークスペース設定でfiles.trimTrailingWhitespace項目を設定する
     空白文字の可視化:Render Whitespace項目:all
     改行コード：ユーザー設定／ワークスペース設定でfiles.eol項目を変更する
