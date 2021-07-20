@@ -26,8 +26,10 @@ GitHub
 sourcetree
     https://www.sourcetreeapp.com/
     install
-    ターミナルからGitHubへssh接続、或いはsshでcloneする
+    ターミナルからGitHubへssh接続
         https://qiita.com/taku_maru/items/b23a24aaa359a0f8eba7
+        １．sshでcloneする
+        ２．pushがsourcetree上で可能になる
 WSL2
 Docker
     https://www.docker.com/
