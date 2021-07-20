@@ -18,6 +18,7 @@ Git
     install
     Git Bash
         git --version
+        下記はcd ~/.sshで実行する
         GitHubへssh接続
         https://qiita.com/shizuma/items/2b2f873a0034839e47ce
 GitHub
@@ -32,7 +33,9 @@ sourcetree
         ２．pushがsourcetree上で可能になる
         ３．下のputtyをインストルした後、pageantにプライベートキーを登録する
         　　（毎回キーを確認しない）
-        ４．sourcetreeのターミナルからコマンドでgit pullできる（下記実行後可能）
+        ４．https://qiita.com/shizuma/items/2b2f873a0034839e47ce
+            上記でキーを登録する
+        ５．sourcetreeのターミナルからコマンドでgit pullできる（下記実行後可能）
             git config pull.rebase false  # merge (the default strategy)
             git config pull.rebase true   # rebase
             git config pull.ff only　　　　# fast-forward only
