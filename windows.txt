@@ -1,15 +1,15 @@
-windows terminar
+Windows Terminar
     https://www.microsoft.com/ja-jp/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab
     install
     windows PowerShell
 VScode
-    https://azure.microsoft.com/ja-jp/products/visual-studio-code/
+    https://code.visualstudio.com/
     PATHへ追加（必須）
     install
     拡張機能
         Japanese Language Pack
         Git History
-        Docker
+        docker
         Docker Compose
         Generate Windows Terminal
     メニュー：ファイル：ユーザー設定：設定：ワークスペース
@@ -49,23 +49,33 @@ sourcetree
             git config --global pull.rebase false
 putty
     https://web.archive.org/web/20171222101036/http://hp.vector.co.jp/authors/VA024651/PuTTYkj.html
-WSL2
+WSL2有効にする
+    windows上でLinux環境を構築
 Docker
     https://www.docker.com/
-    画面一番下：Developers：Docsの下記をクリックする
+    画面一番下のDevelopers：Docsをクリックする
+
     https://docs.docker.com/
     Download And installの下記をクリックする
+
     https://docs.docker.com/get-docker/
     Docker Desktop for Windowsの下記をクリックする
+
     https://docs.docker.com/docker-for-windows/install/
-    上記はWindows　Ｐro用なので
+    上記はWindows　Ｐro用なのでHome用に移動する
+
     https://docs.docker.jp/docker-for-windows/install-windows-home.html
+    Windows 上で WSL2 機能の有効化。詳細な手順は下記
+
     https://hub.docker.com/editions/community/docker-ce-desktop-windows/
     Microsoft documentation.の下記リンクをクリックする
+
     https://docs.microsoft.com/en-us/windows/wsl/install-win10
     上は英語サイトなので下記の日本語サイトを開く
+
     https://docs.microsoft.com/ja-jp/windows/wsl/install-win10
-    管理者として PowerShell を開き、以下を実行します。（下記をターミナルで実行する）
+    管理者として PowerShell を開く
+    Windows Terminarで下記を実行する
     Start-Process powershell.exe -Verb runas
     青の管理者画面が開く
 
@@ -76,6 +86,7 @@ Docker
     Windows update
         キーボードのWindowsキーを押しながら、[R]キーを押します。 ...
         [ファイル名を指定して実行]画面が表示されるので、[名前]欄に「winver」と入力し、[OK]ボタンを選択します。
+
     手順 3: 仮想マシンの機能を有効にする
     dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
