@@ -98,19 +98,30 @@ Docker
 
     手順 5 - WSL 2 を既定のバージョンとして設定する
     管理者ではない普通のpowershellで下記を実行する
-    下記が実行後のメッセージです
-        WSL 2 との主な違いについては、https://aka.ms/wsl2 を参照してください
+    wsl --set-default-version 2
+    実行後、下記のメッセージが出ればOK
+        「WSL 2 との主な違いについては、https://aka.ms/wsl2 を参照してください」
 
     手順 6 - 選択した Linux ディストリビューションをインストールする
-    Ubuntu 20.04 LTSを使用する
+    Ubuntu 20.04 LTSをクリックする
     https://www.microsoft.com/ja-jp/p/ubuntu-2004-lts/9n6svws3rx71?rtc=1&activetab=pivot:overviewtab
     インストールする
     起動する
     username:baesuyong1973
     password:koreabae7409
 
+    WSLを有効にして、windows上でLinuxが動く様になった
+    Dockerをインストールする為、下記に戻る
+    https://docs.docker.jp/docker-for-windows/install-windows-home.html
 
+    Get Dockerをクリックする
+    https://hub.docker.com/editions/community/docker-ce-desktop-windows/
+    インストールする
+    両方チェックされたままOKをクリックする
 
+    Dockerを起動する：クジラが出てきたらOK
+    Windows Terminarでubuntuを開く
+    docker --version
 
 
 
