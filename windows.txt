@@ -41,6 +41,8 @@ sourcetree
             git config pull.rebase false  # merge (the default strategy)
             git config pull.rebase true   # rebase
             git config pull.ff only　　　　# fast-forward only
+
+            git config --global pull.rebase false
 putty
     https://web.archive.org/web/20171222101036/http://hp.vector.co.jp/authors/VA024651/PuTTYkj.html
 WSL2
