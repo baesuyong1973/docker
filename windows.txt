@@ -12,9 +12,13 @@ VScode
         Docker
         Docker Compose
         Generate Windows Terminal
-    ユーザー設定／ワークスペース設定でfiles.trimTrailingWhitespace項目を設定する
-    空白文字の可視化:Render Whitespace項目:all
-    改行コード：ユーザー設定／ワークスペース設定でfiles.eol項目を変更する
+    メニュー：ファイル：ユーザー設定：設定：ワークスペース
+    files.trimTrailingWhitespace
+        チェックを入れる
+    Render Whitespace
+        all
+    files.eol
+        LF
 Git
     https://gitforwindows.org/
     install
